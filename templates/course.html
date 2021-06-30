@@ -1,0 +1,157 @@
+{% extends "layout.html" %}
+{% block body %}
+    
+<section class="course-main">
+      
+    
+    <!-- Flickity HTML init -->
+    <section class="IT">
+      <h1 style="text-align: left;" >IT</h1>
+    <div data-aos="fade-down" class="carousel"data-flickity='{ "groupCells": 4 ,"freeScroll": true,
+    "wrapAround": true,"autoPlay":true,"prevNextButtons": false,
+    "pageDots": false
+    }'>
+      <div class="course-cell">
+        <img src="{{ url_for('static', filename='img/java.png') }}" alt="">
+        <a href=""><h2>Java</h2></a>
+      </div>
+      <div class="course-cell">
+        <img src="{{ url_for('static', filename='img/c.png') }}" alt="">
+        <a href=""><h2>C</h2></a>
+      </div>
+      <div class="course-cell">
+        <img src="{{ url_for('static', filename='img/c++.png') }}" alt="">
+        <a href=""><h2>C++</h2></a>
+      </div>
+      <div class="course-cell">
+        <img src="{{ url_for('static', filename='img/python.png') }}" alt="">
+        <a href=""><h2>Python</h2></a>
+      </div>
+      <div class="course-cell">
+        <img src="{{ url_for('static', filename='img/django.jpg') }}" alt="">
+        <a href=""><h2>Django</h2></a>
+      </div>
+      
+    
+    </div>
+    </section>
+    <section class="general">
+    <h1 style="text-align: left;">General</h1>
+    
+    <!-- Flickity HTML init -->
+    <div data-aos="fade-down" class="carousel"data-flickity='{ "groupCells": true ,"freeScroll": true,
+    "wrapAround": true,"autoPlay":true,"prevNextButtons": false,
+    "pageDots": false
+    }'>
+      <div class="course-cell">
+        <img src="{{ url_for('static', filename='img/msoffice.png') }}" alt="">
+        <a href=""><h2>Ms Office</h2></a>
+      </div>
+      <div class="course-cell">
+        <img src="{{ url_for('static', filename='img/excel.png') }}" alt="">
+        <a href=""><h2>Advanced Excel</h2></a>
+      </div>
+      <div class="course-cell">
+        <img src="{{ url_for('static', filename='img/photoshop.png') }}" alt="">
+        <a href=""><h2>Photoshop</h2></a>
+      </div>
+      <div class="course-cell">
+        <img src="{{ url_for('static', filename='img/pagemaker.png') }}" alt="">
+        <a href=""><h2>PageMaker</h2></a>
+      </div>
+      <div class="course-cell">
+        <img src="{{ url_for('static', filename='img/coreldraw.png') }}" alt="">
+        <a href=""><h2>CorelDraw</h2></a>
+      </div>
+      
+    
+    </div>
+    </section>
+    <section class="cadcam">
+      <h1 style="text-align: left;"">CAD CAM</h1>
+    
+    <!-- Flickity HTML init -->
+    <div data-aos="fade-down" class="carousel"data-flickity='{ "groupCells": true ,"freeScroll": true,
+    "wrapAround": true,"autoPlay":true,"prevNextButtons": false,
+    "pageDots": false
+    }'>
+    <div class="course-cell">
+      <img src="{{ url_for('static', filename='img/autocad.png') }}" alt="">
+      <a href=""><h2>Autocad</h2></a>
+    </div>
+    <div class="course-cell">
+      <img src="{{ url_for('static', filename='img/solidworks.png') }}" alt="">
+      <a href=""><h2>Solidworks</h2></a>
+    </div>
+    <div class="course-cell">
+      <img src="{{ url_for('static', filename='img/catia.png') }}" alt="">
+      <a href=""><h2>Catia</h2></a>
+    </div>
+    <div class="course-cell">
+      <img src="{{ url_for('static', filename='img/creo.png') }}" alt="">
+      <a href=""><h2>Proe/Croe</h2></a>
+    </div>
+    <div class="course-cell">
+      <img src="{{ url_for('static', filename='img/3dmax.png') }}" alt="">
+      <a href=""><h2>3ds Max</h2></a>
+    </div>
+    <div class="course-cell">
+      <img src="{{ url_for('static', filename='img/delcam.png') }}" alt="">
+      <a href=""><h2>Delcam</h2></a>
+    </div>
+    <div class="course-cell">
+      <img src="{{ url_for('static', filename='img/cnc.gif') }}" alt="">
+      <a href=""><h2>CNC Programming</h2></a>
+    </div>
+    <div class="course-cell">
+      <img src="{{ url_for('static', filename='img/vmc.gif') }}" alt="">
+      <a href=""><h2>VMC Programming</h2></a>
+    </div>
+    
+    </div>
+    </section>
+    
+    <section class="services">
+      <h1 style="text-align: left;">Services</h1>
+      
+      <!-- Flickity HTML init -->
+      <div data-aos="fade-down" class="carousel"data-flickity='{ "groupCells": true ,"freeScroll": true,
+    "wrapAround": true,"autoPlay":true,"prevNextButtons": false,
+    "pageDots": false
+    }'>
+    
+    <div class="course-cell services-cell">
+      <a href=""><h2 >2D to 3D Drawing Conversion</h2></a>
+    </div>
+    <div class="course-cell services-cell">
+      
+      <a href=""><h2 >Conceptual Designing</h2></a>
+    </div>
+    <div class="course-cell services-cell">
+      
+      <a href=""><h2 >Reverse Engineering</h2></a>
+    </div>
+    <div class="course-cell services-cell">
+     
+      <a href=""><h2 >Prototype Development</h2></a>
+    </div>
+    <div class="course-cell services-cell">
+      
+      <a href=""><h2 >Web Development</h2></a>
+    </div>
+    <div class="course-cell services-cell">
+      
+      <a href=""><h2 >Android Development</h2></a>
+    </div>
+    <div class="course-cell services-cell">
+      
+      <a href=""><h2>DESIGN OF JIG & FIXTURE AS PER REQUIREMENT.</h2></a>
+    </div>
+      </div>
+      </section>
+    </section>
+    
+
+
+
+    {% endblock %}

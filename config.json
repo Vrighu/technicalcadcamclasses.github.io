@@ -1,0 +1,18 @@
+{
+  "params":
+  {
+    "local_server":"True",
+    "local_uri": "mysql://root:@localhost/cadcam",
+    "prod_uri":"mysql://root:@localhost/cadcam",
+    "fb_url":"https://facebook.com/codingthunder",
+    "tw_url":"https://twitter.com/codingthunder",
+    "gh_url": "https://github.com/codingthunder",
+    "blog_name": "Coding Thunder",
+    "gmail-user":"haddirock7@gmail.com",
+    "gmail-password":"captain@07",
+    "upload_location":"C:\\Users\\Haris\\PycharmProjects\\Flask-tut\\static"
+
+
+  }
+
+}

@@ -1,0 +1,253 @@
+{% extends "layout.html" %}
+{% block body %}
+
+    <section class="header">
+      <section class="welcome">
+        <div class="content">
+          <div class="box1" data-aos="fade-right">
+            <h1>SKILL TO EXCELLENCE (कौशल से कुशलता की ओर)</h1>
+          </div>
+          <div class="box2" data-aos-offset="0" data-aos="fade-left">
+            <h1 >Your search end here</h1>
+          </div>
+          <div class="box3" data-aos="fade-down">
+            <img src="{{ url_for('static', filename='img/home.jpg') }}" alt="">
+          </div>
+          <div class="box4" data-aos="fade-up">
+            <img src="{{ url_for('static', filename='img/join.png') }}" alt="" >
+          </div>
+        </div>
+      </section>
+    </section>
+    <hr>
+
+    <!-- -----------------------Title----------------------------- -->
+
+    <section class="main-name">
+      <div class="content">
+        <div class="text-box" style="text-align: center">
+          <h1>
+            Technical CAD CAM and <br />
+            Computer Classes
+          </h1>
+          <p>
+            We are providing classes for CAD, CAM and various computer courses.
+          </p>
+          <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------Social media---------------------------- -->
+
+    <div class="icons">
+      <a href=""> <i class="fab fa-facebook"></i></a>
+      <a href=""> <i class="fab fa-twitter"></i></a>
+      <a href=""> <i class="fab fa-instagram"></i></a>
+      <a href=""> <i class="fab fa-linkedin"></i></a>
+    </div>
+    <hr />
+
+    <!-- -----------------------Courses----------------------------- -->
+
+    <section class="course" data-aos="fade-down" >
+      <div class="title">
+        <h1>Courses For</h1>
+        <div class="slider">
+          <div>IT</div>
+          <div>CAD CAM</div>
+          <div>SERVICES</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="course-col">
+          <img src="{{ url_for('static', filename='img/it.gif') }}" alt="" />
+          <div class="course-list">
+            <li><a href="">JAVA</a></li>
+            <li><a href="">C++</a></li>
+            <li><a href="">C</a></li>
+            <li><a href="">PYTHON</a></li>
+            <li><a href="">DJANGO</a></li>
+          </div>
+          <h1>IT</h1>
+        </div>
+        
+
+        <div class="course-col">
+          <img src="{{ url_for('static', filename='img/ms.gif') }}" alt="" />
+          <div class="course-list">
+            <li><a href="">MS OFFICE</a></li>
+            <li><a href="">ADVANCED EXCEL</a></li>
+            <li><a href="">PHOTOSHOP</a></li>
+            <li><a href="">PAGEMAKER</a></li>
+            <li><a href="">COREL DRAW</a></li>
+          </div>
+          <h1>General</h1>
+        </div>
+        <div class="course-col">
+          <img src="{{ url_for('static', filename='img/cad.gif') }}" alt="" />
+          <div class="course-list">
+            <li><a href="">AUTOCAD</a></li>
+            <li><a href="">SOLIDWORKS</a></li>
+            <li><a href="">CATIA</a></li>
+            <li><a href="">CREO/PROE</a></li>
+            <li><a href="">3D MAX</a></li>
+          </div>
+          <h1>CAD CAM</h1>
+        </div>
+        <div class="course-col">
+          <img src="{{ url_for('static', filename='img/services.gif') }}" alt="" />
+          <div class="course-list">
+            <li><a href="">DELCAM</a></li>
+            <li><a href="">CHC PROGRAMMING</a></li>
+            <li><a href="">CHC PROGRAMMING</a></li>
+          </div>
+          <h1>Services</h1>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- -----------------------Teachers----------------------------- -->
+
+    <section class="teachers">
+      <h1 data-aos="fade-down">Our Teachers</h1>
+      <div class="row">
+        <div class="teachers-col" data-aos="fade-right">
+          <div class="profile">
+            <img src="{{ url_for('static', filename='img/basketball.png') }}" alt="" >
+            <h2>Amarendra Arya</h2>
+            <p>Engineer</p>
+          </div>
+        </div>
+        <div class="teachers-col" data-aos="fade-left">
+          <div class="profile">
+            <img src="{{ url_for('static', filename='img/basketball.png') }}" alt="" >
+            <h2>Anita Arya</h2>
+            <p>Teacher</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!-- -----------------------Testimonials----------------------------- -->
+<section class="gallery">
+  <h1 data-aos="fade-down">Gallery</h1>
+  <div class="carousel" data-flickity='{ "fade": true, "imagesLoaded": true ,"freeScroll": true,
+  "wrapAround": true,"autoPlay":true,"prevNextButtons": false,
+  "pageDots": false}'>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/720/540/?image=517" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/540/720/?image=696" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/720/540/?image=56" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/800/500/?image=1084" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/720/540/?image=1080" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/640/640/?image=1074" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/720/540/?image=1069" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/800/500/?image=1062" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/720/540/?image=1002" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/640/640/?image=935" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/720/540/?image=855" />
+    </div>
+    <div class="carousel-cell">
+      <img class="carousel-cell-image" src="https://picsum.photos/640/640/?image=824" />
+    </div>
+  </div>
+</section>
+    <hr>
+      
+   <section class="testimonials">
+     
+<h1>What Our Students Say</h1>
+<!-- Flickity HTML init -->
+  <div class="carousel"data-flickity='{ "freeScroll": true,
+    "wrapAround": true,"autoPlay":true,"prevNextButtons": false,
+    "pageDots": false
+    }'>
+  <div class="carousel-cell">
+    <div class="container">
+      <div class="user-text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          aut ipsum adipisci et ut similique, 
+          
+        </p>
+        <h3>Sarah</h3>
+        <p>Zara Inc.</p>
+      </div>
+      <div class="user-img">
+        <img src="{{ url_for('static', filename='img/london.png') }}" alt="" >
+      </div>
+    </div>
+  </div>
+<div class="carousel-cell">
+    <div class="container">
+      <div class="user-text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          aut ipsum adipisci et ut similique, 
+          
+        </p>
+        <h3>Sarah</h3>
+        <p>Zara Inc.</p>
+      </div>
+      <div class="user-img">
+        <img src="{{ url_for('static', filename='img/london.png') }}" alt="" >
+      </div>
+    </div>
+  </div>
+<div class="carousel-cell">
+    <div class="container">
+      <div class="user-text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          aut ipsum adipisci et ut similique, 
+          
+        </p>
+        <h3>Sarah</h3>
+        <p>Zara Inc.</p>
+      </div>
+      <div class="user-img">
+        <img src="{{ url_for('static', filename='img/london.png') }}" alt="" >
+      </div>
+    </div>
+  </div>
+</div>
+   </section>
+    
+    <hr>
+
+    <!-- -----------------------Contact---------------------------- -->
+
+    <section class="cta" data-aos="fade-down">
+      <h1>
+        THE END TO YOUR SEARCH FOR TECHNICAL EDUCATION IN PUNE AT AFFORDABLE PRICE AND FLEXIBLE TIME.
+      </h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- -----------------------footer----------------------------- -->
+
+    {% endblock %}
