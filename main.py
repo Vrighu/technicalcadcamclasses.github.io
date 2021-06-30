@@ -66,4 +66,4 @@ def contact():
         #                   )
         # flash("Thanks for submiiting your details. We will get back to you soon","warning")                     
     return render_template('contact.html', params=params)
-app.run(debug=True)
+app.run(debug=False,host='0.0.0.0')
